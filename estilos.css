@@ -3,21 +3,22 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f2f2f2; /* Fondo claro con tonos suaves */
+    background-color: #1a1a1a; /* Fondo oscuro inspirado en la temática */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     overflow: hidden;
     position: relative;
+    color: #fff; /* Texto claro para destacar sobre fondo oscuro */
 }
 
 .container {
     text-align: center;
-    background-color: rgba(255, 182, 193, 0.8); /* Rosa suave */
+    background-color: rgba(255, 69, 0, 0.8); /* Rojo fuego inspirado en el anime */
     padding: 25px;
     border-radius: 15px;
-    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.5);
     max-width: 500px;
     width: 90%;
     overflow: hidden;
@@ -25,15 +26,15 @@ body {
 }
 
 h1 {
-    color: #a52a2a; /* Color marrón oscuro */
+    color: #f5f5f5; /* Blanco claro */
     font-size: 3.5em;
     margin: 0;
     font-weight: bold;
-    text-shadow: 2px 2px #000;
+    text-shadow: 3px 3px #ff4500; /* Sombra de texto inspirada en llamas */
 }
 
 p {
-    color: #6a6a6a; /* Gris oscuro */
+    color: #ddd; /* Gris claro */
     font-size: 1.3em;
     margin: 15px 0;
 }
@@ -44,7 +45,7 @@ textarea {
     max-width: calc(100% - 20px);
     padding: 10px;
     margin-top: 10px;
-    border: 2px solid #a52a2a;
+    border: 2px solid #ff4500; /* Rojo fuego */
     border-radius: 5px;
     font-size: 1.1em;
     resize: none;
@@ -70,7 +71,7 @@ button:hover {
     transform: scale(1.1);
 }
 
-/* Fondo con flores */
+/* Fondo con flores (adaptado a la temática de Demon Slayer) */
 .flowers-bg {
     position: absolute;
     top: 0;
@@ -80,7 +81,7 @@ button:hover {
     overflow: hidden;
     pointer-events: none;
     z-index: 0;
-    background-image: url('flowers-background.png'); /* Fondo con flores */
+    background-image: url('demon-slayer-background.jpg'); /* Imagen de fondo inspirada en Demon Slayer */
     background-size: cover;
     background-position: center;
 }
@@ -88,7 +89,7 @@ button:hover {
 /* Cambiar imagen de fondo en pantallas pequeñas (móviles) */
 @media screen and (max-width: 768px) {
     .flowers-bg {
-        background-image: url('flowers-background-mobile.png'); /* Fondo adaptado para móvil */
+        background-image: url('demon-slayer-background-mobile.jpg'); /* Fondo adaptado para móvil */
         background-size: cover;
         background-position: center;
     }
